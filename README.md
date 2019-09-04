@@ -4,8 +4,7 @@ We give you a JSON array like this:
 [
 { "name": "rick", "cars": ["Corvette Z06", "Lotus Exite S"] },
 { "name": "john", "cars": ["BMW 320D"] },
-{ "name": "zing", "cars": ["Honda Jazz", "Honda Click", "Honda
-Waves"] }
+{ "name": "zing", "cars": ["Honda Jazz", "Honda Click", "Honda Waves"] }
 ]
 ```
 
