@@ -1,12 +1,13 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+String.prototype.toCamelCase = function() {
+  let text = this
+  const words = text.split(' ')
+  for (let i = 0; i < words.length; i++) {
+    let word = words[i]
+    words[i] = word.charAt(0).toUpperCase() + word.substr(1)
+  }
 
-ReactDOM.render(<App />, document.getElementById('root'));
+  return words.join('')
+}
+const str = 'camel case word'
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
+console.log(str.toCamelCase())
