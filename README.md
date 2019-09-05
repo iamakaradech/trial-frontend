@@ -15,3 +15,9 @@ Rick want to buy Corvette Z06, Lotus Exite S
 Zing want to buy Honda Jazz, Honda Click, Honda Waves
 Note: please careful the order and capitalize of name!
 ```
+
+# How to run
+```
+yarn install
+yarn start
+```
